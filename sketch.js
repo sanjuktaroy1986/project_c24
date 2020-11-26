@@ -50,9 +50,9 @@ function draw() {
  noStroke();
  dbb.display();
 
- if(keyDown("UP_ARROW")){
+ if(keyWentDown("UP_ARROW")){
 
-  Body.applyForce(cp.body, cp.body.position, {x:29,y:-9});
+  Body.applyForce(cp.body, cp.body.position, {x:42,y:-50});
 
  }
 }
